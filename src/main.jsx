@@ -4,19 +4,13 @@ import './index.css'
 import App from './App.jsx'
 
 import {
-  createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Router from './Router/Router.jsx';
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <div>Hello worldsssss!</div>,
-  },
-]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={Router} />
   </StrictMode>,
 )
