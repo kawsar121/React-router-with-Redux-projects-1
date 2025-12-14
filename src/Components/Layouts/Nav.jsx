@@ -7,7 +7,7 @@ const Nav = () => {
       <div className="flex justify-evenly text-lg font-semibold">
         <Link>Home</Link>
         <Link to="/todoapps">Todo Apps</Link>
-        <Link>About</Link>
+        <Link>Abouts</Link>
       </div>
     </div>
   );
